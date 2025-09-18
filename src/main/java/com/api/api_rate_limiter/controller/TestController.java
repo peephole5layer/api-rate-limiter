@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-
+//test
     @GetMapping("/api/data")
     public String getData(){
         return " Request successful you are within rate limit";
